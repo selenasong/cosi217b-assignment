@@ -8,6 +8,8 @@ To run:
 uvicorn app_fastapi:app --reload
 ```
 
+Then enter files/texts to process in another terminal. 
+
 Accessing the dependency parser:
 
 ```bash
