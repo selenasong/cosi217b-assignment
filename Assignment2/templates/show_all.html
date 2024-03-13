@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head></head>
+   <body>
+
+      <hr/>
+      {%- for message in get_flashed_messages() %}
+         {{ message }}
+      {%- endfor %}
+
+      <p>Entities and their heads: </p>
+
+      <table border="1">
+        <tr>
+            <th>Entity</th>
+            <th>Sum of Counts</th>
+            <th>Relation</th>
+            <th>Sum of Counts</th> <!-- New column -->
+        </tr>
+        {% for entity_relation in entity_relations %}
+        <tr>
+            <td>{{ entity_relation.entity }}</td>
+            <td>{{ entity_relation.entity_count }}</td>
+            <td>{{ entity_relation.relation }}</td>
+            <td>{{ entity_relation.count }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      <p><a href="/get">back to form</a></p>
+
+   </body>
+</html>
