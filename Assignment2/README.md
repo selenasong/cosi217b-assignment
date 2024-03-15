@@ -1,8 +1,8 @@
 # Assignment 2
 
-### Flask SQLAlchemy 
+## Flask SQLAlchemy 
 
-Requirments:
+###Requirments:
 
 Python 3.9
 
