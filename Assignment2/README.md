@@ -4,9 +4,19 @@
 
 ### Requirments:
 
-Python 3.9
+Python>=3.9
 
-Latest version of flask_sqlalchemy, flask, and spacy ("en_core_web_sm" model)
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
+
+Flask==3.0.2
+
+Flask-SQLAlchemy==3.1.1
+
+spacy==3.7.4
+
+SQLAlchemy==2.0.28
+
+
 
 ### To run app:
 
