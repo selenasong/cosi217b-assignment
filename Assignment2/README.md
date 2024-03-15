@@ -4,6 +4,7 @@
 
 Requirments:
 Python 3.9
+
 Latest version of flask_sqlalchemy, flask, and spacy ("en_core_web_sm" model)
 
 To run app:
