@@ -32,7 +32,7 @@ Then see the result at http://localhost:5000/
 
 ### Streamlit 
 ```bash
-cd ./app_flask
+cd ./app_streamlit
 docker build -t app_streamlit .
 docker run -dp 8501:8501 my_streamlit_app
 ```
