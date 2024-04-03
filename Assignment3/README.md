@@ -13,23 +13,13 @@ Then visit http://localhost:8000/,  http://localhost:5000/,  http://localhost:85
 
 ### FastAPI 
 
-To create a container for app_fastapi, first change to the corresponding directory:
+To create a container for app_fastapi, run the following:
 
 ```bash
 cd ./app_fastapi
-```
-
-Then build the image by 
-
-```bash
 docker build -t app_fastapi .
-```
-
-Then start the app container by 
-```bash
 docker run -dp 8000:8000 my_fastapi_app
 ```
-
 Then see the result at http://localhost:8000/
 
 ### Flask SQLAlchemy
