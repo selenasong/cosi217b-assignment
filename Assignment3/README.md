@@ -18,7 +18,7 @@ To create a container for app_fastapi, run the following:
 ```bash
 cd ./app_fastapi
 docker build -t app_fastapi .
-docker run -dp 8000:8000 my_fastapi_app
+docker run -dp 8000:8000 fastapi_app
 ```
 Then see the result at http://localhost:8000/
 
@@ -26,7 +26,7 @@ Then see the result at http://localhost:8000/
 ```bash
 cd ./app_flask
 docker build -t app_flask .
-docker run -dp 8080:5000 my_flask_app
+docker run -dp 8080:5000 flask_app
 ```
 Then see the result at http://localhost:5000/
 
@@ -34,6 +34,6 @@ Then see the result at http://localhost:5000/
 ```bash
 cd ./app_streamlit
 docker build -t app_streamlit .
-docker run -dp 8501:8501 my_streamlit_app
+docker run -dp 8501:8501 streamlit_app
 ```
 Then see the result at http://localhost:8501/
