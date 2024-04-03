@@ -9,7 +9,7 @@ To run all containers:
 ```bash
 docker-compose up
 ```
-
+Then visit http://localhost:8000/,  http://localhost:5000/,  http://localhost:8501/ to view the pages. 
 
 ### FastAPI 
 
