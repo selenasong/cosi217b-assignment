@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  fast_api:
+    build: ./app_fastapi
+    ports:
+      - "8000:8000"
+
+  flask_app:
+    build: ./app_flask
+    ports:
+      - "8080:5000"
+
+  streamlit_app:
+    build: ./app_streamlit
+    ports:
+      - "8501:8501"
