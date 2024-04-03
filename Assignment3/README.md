@@ -31,6 +31,7 @@ cd ./app_flask
 docker build -t app_flask .
 docker run -dp 8080:5000 my_flask_app
 ```
+Then see the result at http://localhost:5000/
 
 ### Streamlit 
 ```bash
@@ -38,3 +39,4 @@ cd ./app_flask
 docker build -t app_streamlit .
 docker run -dp 8501:8501 my_streamlit_app
 ```
+Then see the result at http://localhost:8501/
