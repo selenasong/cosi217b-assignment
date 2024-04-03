@@ -4,6 +4,13 @@
 
 All files that are relevant to each app is in the directory for the app, including requirements, dockerfile, and python files. 
 
+To run all containers:
+
+```bash
+docker-compose up
+```
+
+
 ### FastAPI 
 
 To create a container for app_fastapi, first change to the corresponding directory:
